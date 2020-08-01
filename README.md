@@ -9,6 +9,7 @@ Here is an example of how to run it, and the output. I added whitespace between 
 ```
 Matts-MacBook-Pro:towers-of-hanoi matt$ ghci
 GHCi, version 8.10.1: https://www.haskell.org/ghc/  :? for help
+
 Prelude> :l hanoi
 [1 of 1] Compiling Main             ( hanoi.hs, interpreted )
 Ok, one module loaded.
