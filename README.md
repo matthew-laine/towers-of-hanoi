@@ -2,7 +2,9 @@
 
 ## Current implementation
 
-Currently, the program solves the Towers of Hanoi problem by giving a list of moves to follow. The actual code begins by returning an empty list for the trivial solution of moving zero discs, and builds upon it recursively so as to eventually be able to move any number of discs from a to b.
+Currently, the program solves the Towers of Hanoi problem by giving a list of moves to follow. A move is represented by a 2-tuple where the first value indicates the source, and the second indicates the target. 
+
+The actual code begins by returning an empty list for the trivial solution of moving zero discs, and builds upon it recursively so as to eventually be able to move any number of discs from a to b.
 
 Here is an example of how to run it, and the output. I added whitespace between each command/output pair for clarity:
 
